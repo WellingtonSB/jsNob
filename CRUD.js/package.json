@@ -1,0 +1,33 @@
+{
+  "name": "crudjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon ./src/app.js --ignore __tests__",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WellingtonSB/CRUD.js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WellingtonSB/CRUD.js/issues"
+  },
+  "homepage": "",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-validator": "^6.11.1",
+    "fs": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "jest": "^27.0.3",
+    "lint": "^0.7.0",
+    "nodemon": "^2.0.7",
+    "supertest": "^6.1.3"
+  }
+}
