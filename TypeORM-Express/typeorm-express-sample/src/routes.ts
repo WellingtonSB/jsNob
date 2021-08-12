@@ -15,6 +15,11 @@ export const Routes = [{
     route: "/users",
     controller: UserController,
     action: "save"
+},{
+    method: "update",
+    route: "/users",
+    controller: UserController,
+    action: "update"
 }, {
     method: "delete",
     route: "/users/:id",
