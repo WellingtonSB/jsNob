@@ -26,7 +26,7 @@
   },
   "devDependencies": {
     "jest": "^27.0.3",
-    "lint": "^0.7.0",
+    "lint": "^0.8.8",
     "nodemon": "^2.0.7",
     "supertest": "^6.1.3"
   }
